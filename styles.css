@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('5x5-das-lendas.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: color;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+
+  color: #42c6fa;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#team1,
+#team2 {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #42c6fa;
+  padding: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: skyblue;
+  padding: 25px;
+  font-size: 1.5rem;
+}
+
+div {
+  background-color: #42c6fa25;
+  border: 1px solid #42c6fa;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button {
+  background-color: #42c6fa;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #42c6fa;
+  border: 1px solid #42c6fa;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: white 2px solid;
+  border-radius: 5px;
+}
